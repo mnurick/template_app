@@ -1,6 +1,9 @@
 TemplateApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  #Use SSL to access the app
+  config.force_ssl = true
+
   # Code is not reloaded between requests
   config.cache_classes = true
 
